@@ -1,0 +1,28 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 48px 80px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-logo {
+    font-family: $playfair-font;
+    font-weight: 700;
+    color: $black-color;
+  }
+  .header-nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 64px;
+  }
+  button {
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+  }
+}

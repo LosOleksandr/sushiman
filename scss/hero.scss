@@ -1,0 +1,32 @@
+.hero {
+  padding-top: 180px;
+  .container::before {
+    content: "";
+    width: 540px;
+    height: 100%;
+    background-color: #b1454a;
+  }
+  h1 {
+    margin-bottom: 32px;
+    font-family: $playfair-font;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 140%;
+    color: #121212;
+  }
+  h2 {
+    margin-bottom: 41px;
+  }
+  .hero-btns {
+    .order {
+      width: 212px;
+      height: 64px;
+      background-color: #121212;
+      border-radius: 36px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      color: #ffffff;
+    }
+  }
+}
